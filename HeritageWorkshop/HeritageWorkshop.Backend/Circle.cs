@@ -23,8 +23,6 @@ public class Circle : GeometricFigure
 
     public override double GetPerimeter() => 2 * Math.PI * R;
 
-    public override string ToString() => base.ToString();
-
     private double ValidateR(double r)
     {
         if (r <= 1)
